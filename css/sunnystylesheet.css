@@ -1,0 +1,1636 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* --------Navigation styling details--------- */
+
+ul {
+    text-align: right;
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0;
+}   
+li a {
+    display: inline;
+    color: #ffff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.all-nav-links {
+    position: relative;
+}
+
+.logo-text {
+    text-align: left;
+    position: absolute;
+}
+
+.text-logo {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.navlinks {
+    width: 95%;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 0;
+    position: absolute;
+}
+
+.contact-link:hover {
+    border-radius: 30px;
+    background-color: aqua;
+    font-family: 'PT Serif', serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* --------header text and image section styling details--------- */
+.header-text {
+    background-image: url("../images/desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.head-line-text {
+    color: #ffff;
+    font-size: 52px;
+    padding-top: 200px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'PT Serif', serif;
+}
+
+/* --------Arrow across image section styling details--------- */
+.image-arrow {
+    background-image: url("../images/icon-arrow-down.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10%;
+    height: 20%;
+    top: 39%;
+    left: 50%;
+    position: absolute;
+}
+
+/* --------Transform section styling details--------- */
+.second-section {
+    /* width: 50%; */
+    display: inline;
+}
+
+.firstimage {
+    background-image: url("../images/desktop/image-transform.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 65vh;
+    position: relative;
+    float: right;
+    padding: 0;
+    /* margin-left:300px; */
+}
+
+.title-in-div {
+    width: 35%;
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+}
+
+.text-beside-image {
+    width: 50%;
+    position: relative;
+    padding: 0.9in;
+    /* padding-top:50px; */
+    top: 90%;
+    left: 10%;
+}
+
+.sub-text {
+    text-align: left;
+    width: 55%;
+    color: gray;
+    margin-top: 24px;
+}
+
+.learn-more-link:hover {
+    text-transform: uppercase;
+    text-decoration-color: yellow;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+.learn-more-link {
+    color: black;
+    font-family: "PT serif", serif;
+    margin-top: 50px;
+}
+
+/* ------Stand out section details------- */
+.third-section {
+    width: 100%;
+    display: flex;
+}
+
+.second-title-in-div {
+    width: 59%;
+    font-family: 'Pt serif', serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.secondimage {
+    background-image: url("../images/desktop/image-stand-out.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 66%;
+    height: 75vh;
+    display: flex;
+}
+
+.text-beside-secondimage {
+    width: 50%;
+    position: relative;
+    padding: 0.9in;
+    top: 90%;
+}
+
+.second-sub-text {
+    width: 60%;
+    color: gray;
+    margin-top: 24px;
+}
+
+.second-learn-more-lnk {
+    color: black;
+    font-family: "PT serif", serif;
+    margin-top: 50px;
+}
+
+.second-learn-more-lnk:hover {
+    text-transform: uppercase;
+    text-decoration-color: rgb(255, 102, 0);
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+/* ----styling for graphic design detials------ */
+
+.graph-photo {
+    display: inline-flex;
+}
+
+.graph-design-image {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 75vh;
+    display: flex;
+}
+
+.graph-design-div {
+    width: 90%;
+    text-align: center;
+    margin-top: 350px;
+}
+
+
+
+.graph-design-text {
+    color: rgb(2, 63, 2);
+}
+
+.graph-design-sub-text {
+    color: rgb(2, 63, 2);
+    text-align: center;
+    width: 57%;
+    margin-right: 0;
+    margin-left: 120px;
+}
+
+/* ----styling for photography image detials------ */
+.photography-image {
+    background-image: url("../images/desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 75vh;
+    display: flex;
+    float: right;
+}
+
+.Photography-text-div {
+    width: 90%;
+    /* text-align: center; */
+    margin-left: 195px;
+    margin-top: 350px;
+    color: rgb(13, 62, 102);
+}
+
+.photography-heading-text {
+    color: rgb(13, 62, 102);
+    margin-left: 78px;
+    /* text-align: center; */
+}
+
+.photography-subtext {
+    width: 58%;
+    text-align: center;
+    margin-right: 0;
+}
+
+/* ----styling for client detials------ */
+.clients {
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-right: 20px;
+}
+
+.new-client-div {
+    display: inline-flex;
+    margin-top: 200px;
+}
+
+.clients-h3 {
+    color: gray;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+/* ----styling for Emily detials------ */
+.emily-photo {
+    background-image: url("../images/image-emily.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 29%;
+    height: 15vh;
+    border-radius: 50%;
+    margin-left: 105px;
+}
+
+.emily-subtitle {
+    color: gray;
+    margin-top: 120px;
+    text-align: center;
+    width: 83%;
+    font-size: 20px;
+}
+
+/* ----styling for thomas detials------ */
+.thomas-photo {
+    background-image: url("../images/image-thomas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    height: 15vh;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+
+.thomas-subtitle {
+    color: gray;
+    margin-top: 120px;
+    text-align: center;
+    width: 72%;
+    font-size: 20px;
+}
+
+/* ----styling for Jennie detials------ */
+.jennie-photo {
+    background-image: url("../images/image-jennie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 29%;
+    height: 15vh;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+
+.jennie-subtitle {
+    color: gray;
+    margin-top: 120px;
+    text-align: center;
+    width: 83%;
+    font-size: 20px;
+}
+
+.jennie-footer,
+.thomas-footer,
+.emily-footer {
+    margin-top: 50px;
+    width: 75%;
+    text-align: center;
+}
+
+/* ----------images beneath client testimonials------------- */
+.image-footer {
+    display: flex;
+    margin-top: 190px;
+}
+
+.bottle-image {
+    background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+}
+
+.orange-image {
+    background-image: url("../images/desktop/image-gallery-orange.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+}
+
+.cup-image {
+    background-image: url("../images/desktop/image-gallery-cone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+}
+
+.sugar-image {
+    background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+}
+
+/* ---------footer styling---------- */
+.footer {
+    background-color: rgb(132, 220, 223);
+    width: 100%;
+    text-align: center;
+}
+
+.sunnyside-footer {
+    color: rgb(55, 88, 55);
+    padding-top: 50px;
+    font-size: 60px !important;
+}
+
+.footer-links a {
+    color: rgb(55, 88, 55);
+    padding-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 50px;
+    width: 100%;
+    display: inline;
+}
+
+.socials a {
+    margin-top: 90px;
+}
+
+.footer-links a:hover {
+    color: #ffff;
+}
+
+.fb-icon {
+    background-image: url("../images/icon-facebook.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5%;
+    height: 10vh;
+    margin: 6px;
+}
+
+.fb-icon:hover {
+    filter: brightness(0) invert(1);
+}
+
+.twitter-icon:hover {
+    filter: brightness(0) invert(1);
+}
+
+.insta-icon:hover {
+    filter: brightness(0) invert(1);
+}
+
+.pin-icon:hover {
+    filter: brightness(0) invert(1);
+}
+
+.twitter-icon {
+    background-image: url("../images/icon-twitter.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5%;
+    height: 10vh;
+    margin: 6px;
+}
+
+.insta-icon {
+    background-image: url("../images/icon-instagram.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5%;
+    height: 10vh;
+    margin: 6px;
+}
+
+.pin-icon {
+    background-image: url("../images/icon-pinterest.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5%;
+    height: 10vh;
+    margin: 6px;
+}
+
+.attribution {
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    color: #ffff;
+    font-size: 20px;
+
+}
+
+.attribution a {
+    color: #ffff;
+
+}
+
+.attribution a:hover {
+    color: #e07070;
+}
+
+/* 
+ ================================
+ ===================================
+ ================================================================
+ ===================================
+ ================================================================
+ ===================================
+ RESPONSIVE STYLING """"
+                    """"
+                    """"
+                    """"
+                ++++++++++++
+                 ++++++++++
+                  ++++++++
+                   ++++++
+                    ++++
+                     ++
+ ================================================================
+ ===================================
+ ================================================================
+ ===================================
+ ================================ */
+/* Styles for screens up to 600px wide */
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+
+    /* --------Navigation styling details--------- */
+    /* nav link list */
+    nav{
+        display: block;
+        right: 0;
+    }
+
+    nav .navlinks {
+        display: none;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    ul {
+        text-align: right;
+        display: inline;
+        text-decoration: none;
+        list-style-type: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        text-decoration: none;
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        display: inline-flex;
+        text-decoration: none;
+        margin: 0;
+    }
+
+    li a {
+        display: block;
+        color: #ffff;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+   
+
+    .all-nav-links {
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .logo-text {
+        text-align: left;
+        position: absolute;
+    }
+
+    .text-logo {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .navlinks {
+        width: 95%;
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 0;
+        position: absolute;
+        display: none;
+    }
+
+    .contact-link:hover {
+        border-radius: 30px;
+        background-color: aqua;
+        font-family: 'PT Serif', serif;
+        font-size: 15px;
+        text-transform: uppercase;
+        display: none;
+    }
+
+    .body-section {
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+        display: block;
+    }
+
+    /* --------header text and image section styling details--------- */
+    .homepage {
+        width: 100%;
+    }
+
+    .header-text {
+        background-image: url("../images/mobile/image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .head-line-text {
+        color: #ffff;
+        font-size: 40px;
+        padding-top: 200px;
+        position: absolute;
+        top: 10%;
+        font-family: 'PT Serif', serif;
+        text-align: center;
+    }
+
+    /* --------Arrow across image section styling details--------- */
+    .image-arrow {
+        background-image: url("../images/icon-arrow-down.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 45%;
+        width: 13%;
+        position: absolute;
+    }
+
+    /* --------Transform section styling details--------- */
+    .second-section {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .firstimage {
+        background-image: url("../images/mobile/image-transform.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        position: relative;
+    }
+
+    .title-in-div {
+        width: 80%;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'PT Serif', serif;
+    }
+
+    .text-beside-image {
+        width: 100%;
+        text-overflow: clip;
+        text-align: center;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        padding-top: 3in;
+    }
+
+    .sub-text {
+        text-align: center;
+        width: 90%;
+        color: gray;
+        margin-top: 24px;
+    }
+
+    .learn-more-link {
+        text-transform: uppercase;
+        text-decoration-color: yellow;
+        text-decoration-line: underline;
+        text-decoration-thickness: 5px;
+        color: black;
+        font-family: "PT serif", serif;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .learn-more-div {
+        width: 100%;
+    }
+
+    #learnmore {
+        text-align: end;
+        margin-bottom: 20px;
+        padding-left: 88px;
+    }
+
+    /* ------Stand out section details------- */
+    .third-section {
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+        /* text-align: center; */
+    }
+
+    .second-title-in-div {
+        width: 80%;
+        /* text-align: center; */
+        font-size: 25px;
+        font-family: 'PT Serif', serif;
+    }
+
+    .secondimage {
+        background-image: url("../images/mobile/image-stand-out.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 110%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .text-beside-secondimage {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        margin-left: 20px;
+    }
+
+    .second-sub-text {
+        width: 80%;
+        color: gray;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    .second-learn-more-lnk {
+        text-transform: uppercase;
+        text-decoration-color: yellow;
+        text-decoration-line: underline;
+        text-decoration-thickness: 5px;
+        color: black;
+        font-family: "PT serif", serif;
+        margin-top: 50px;
+        margin-left: 70px;
+        text-align: center;
+    }
+
+
+    /* ----styling for graphic design detials------ */
+
+    .graph-photo {
+        display: block;
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 90px;
+        overflow: hidden;
+    }
+
+    .graph-design-image {
+        background-image: url("../images/mobile/image-graphic-design.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .graph-design-div {
+        width: 90%;
+        text-align: center;
+        margin-top: 300px;
+        overflow: hidden;
+    }
+
+    .graph-design-text {
+        color: rgb(2, 63, 2);
+    }
+
+    .graph-design-sub-text {
+        color: rgb(2, 63, 2);
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 7px;
+        overflow: hidden;
+    }
+
+    /* ----styling for photography image detials------ */
+    .photography-image {
+        background-image: url("../images/mobile/image-photography.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .Photography-text-div {
+        width: 100%;
+        color: rgb(13, 62, 102);
+        margin: 0;
+        padding: 0;
+        margin-top: 300px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .photography-heading-text {
+        color: rgb(13, 62, 102);
+        margin-left: 50px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .photography-subtext {
+        width: 99%;
+        text-align: center;
+        margin-right: 0;
+        position: absolute;
+    }
+
+    /* ----styling for client detials------ */
+    .clients {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .new-client-div {
+        display: block;
+        margin: 0;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .clients-h3 {
+        color: gray;
+        font-weight: bolder;
+        text-align: center;
+        width: 100%;
+        display: inline;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* ----styling for Emily detials------ */
+    .emily-photo {
+        background-image: url("../images/image-emily.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 29%;
+        height: 15vh;
+        border-radius: 50%;
+        margin-left: 105px;
+    }
+
+    .emily-subtitle {
+        color: gray;
+        margin: 0;
+        margin-top: 50px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    /* ----styling for thomas detials------ */
+    .thomas-photo {
+        background-image: url("../images/image-thomas.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 29%;
+        height: 15vh;
+        border-radius: 50%;
+        margin-left: 105px;
+        margin-top: 30px;
+    }
+
+    .thomas-subtitle {
+        color: gray;
+        margin: 0;
+        margin-top: 50px;
+        padding: 0;
+        text-align: center;
+        width: 94%;
+        font-size: 20px;
+    }
+
+    /* ----styling for Jennie detials------ */
+    .jennie-photo {
+        background-image: url("../images/image-jennie.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 29%;
+        height: 15vh;
+        border-radius: 50%;
+        margin-left: 105px;
+        margin-top: 50px;
+        ;
+    }
+
+    .Jennie-div {
+        margin-top: 40px;
+    }
+
+    .jennie-subtitle {
+        color: gray;
+        margin: 0;
+        margin-top: 50px;
+        padding: 0;
+        text-align: center;
+        width: 94%;
+        font-size: 20px;
+    }
+
+    .jennie-footer,
+    .thomas-footer,
+    .emily-footer {
+        margin-top: 45px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* ----------images beneath client testimonials------------- */
+
+    #imagefooter {
+        display: grid;
+        gap: 0;
+        height: auto;
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+
+    .bottle-image {
+        background-image: url("../images/mobile/image-gallery-milkbottles.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .orange-image {
+        background-image: url("../images/mobile/image-gallery-orange.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .cup-image {
+        background-image: url("../images/mobile/image-gallery-cone.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        overflow: hidden;
+    }
+
+    .sugar-image {
+        background-image: url("../images/mobile/image-gallery-sugar-cubes.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    /* ---------footer styling---------- */
+    .footer {
+        background-color: rgb(202, 253, 202);
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-links {
+        text-align: center;
+        display: inline-flex;
+        margin: 0;
+        padding: 2px;
+    }
+
+    .footer-links a {
+        text-align: center;
+        margin: 0;
+        padding: 2px;
+    }
+
+    .socials a {
+        margin-top: 45px;
+    }
+
+
+    .fb-icon {
+        background-image: url("../images/icon-facebook.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 8%;
+        height: 10vh;
+        margin: 10px;
+    }
+
+    .twitter-icon {
+        background-image: url("../images/icon-twitter.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 8%;
+        height: 10vh;
+        margin: 10px;
+    }
+
+    .insta-icon {
+        background-image: url("../images/icon-instagram.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 8%;
+        height: 10vh;
+        margin: 10px;
+    }
+
+    .pin-icon {
+        background-image: url("../images/icon-pinterest.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 8%;
+        height: 10vh;
+        margin: 10px;
+    }
+
+    .attribution {
+        text-align: center;
+        width: 100%;
+        background-color: green;
+        color: #ffff;
+        font-size: 20px;
+    }
+
+    .attribution a {
+        color: #ffff;
+        display: block;
+    }
+
+
+}
+
+/* 
+ ================================
+ ===================================
+ ================================================================
+ ===================================
+ ================================================================
+ ===================================
+ RESPONSIVE STYLING """"
+                    """"
+                    """"
+                    """"
+                ++++++++++++
+                 ++++++++++
+                  ++++++++
+                   ++++++
+                    ++++
+                     ++ MEDIUM SCREENS
+ ================================================================
+ ===================================
+ ================================================================
+ ===================================
+ ================================ */
+
+/* Styles for screens between 601px and 1024px wide */
+@media (min-width: 601px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+    }
+
+    /* --------Navigation styling details--------- */
+    nav {
+        overflow: hidden;
+    }
+
+    ul {
+        text-align: right;
+        display: inline;
+        text-decoration: none;
+        list-style-type: none;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        text-decoration: none;
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        display: inline-flex;
+        text-decoration: none;
+        margin: 0;
+    }
+
+    li a {
+        display: inline;
+        color: #ffff;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .all-nav-links {
+        position: relative;
+    }
+
+    .logo-text {
+        text-align: left;
+        position: absolute;
+    }
+
+    .text-logo {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .navlinks {
+        width: 95%;
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 0;
+        position: absolute;
+    }
+
+    .contact-link:hover {
+        border-radius: 30px;
+        background-color: aqua;
+        font-family: 'PT Serif', serif;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+    .body-section {
+        overflow: hidden;
+    }
+
+    /* --------header text and image section styling details--------- */
+    .header-text {
+        background-image: url("../images/desktop/image-header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 69vh;
+        overflow: hidden;
+    }
+
+    .homepage {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    .head-line-text {
+        color: #ffff;
+        font-size: 35px;
+        padding-top: 200px;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        font-family: 'PT Serif', serif;
+        width: 100%;
+    }
+
+    /* --------Arrow across image section styling details--------- */
+    .image-arrow {
+        background-image: url("../images/icon-arrow-down.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 10%;
+        height: 20%;
+        top: 28%;
+        left: 48%;
+        position: absolute;
+    }
+
+    /* --------Transform section styling details--------- */
+    .second-section {
+        width: 100%;
+        display: inline;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        text-align: left;
+    }
+
+    .firstimage {
+        background-image: url("../images/desktop/image-transform.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 50%;
+        height: 50vh;
+        position: relative;
+        justify-content: end;
+        padding: 0;
+    }
+
+    .title-in-div {
+        width: 45%;
+        font-size: 20px;
+        font-family: 'PT Serif', serif;
+    }
+
+    .text-beside-image {
+        width: 70%;
+        position: relative;
+        padding: 0.5in;
+        left: 5%;
+    }
+
+    .sub-text {
+        text-align: left;
+        width: 50%;
+        color: gray;
+        margin-top: 24px;
+        font-size: 15px;
+    }
+
+    .learn-more-link:hover {
+        text-transform: uppercase;
+        text-decoration-color: yellow;
+        text-decoration-line: underline;
+        text-decoration-thickness: 5px;
+    }
+
+    .learn-more-link {
+        color: black;
+        font-size: 15px;
+        font-family: "PT serif", serif;
+        margin-top: 50px;
+    }
+
+    /* ------Stand out section details------- */
+    .third-section {
+        width: 100%;
+        display: flex;
+        margin-bottom: 0;
+    }
+
+    .second-title-in-div {
+        width: 100%;
+        font-family: 'Pt serif', serif;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+
+    .secondimage {
+        background-image: url("../images/desktop/image-stand-out.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 84%;
+        height: 62vh;
+        display: flex;
+    }
+
+    .text-beside-secondimage {
+        width: 50%;
+        position: relative;
+        margin: auto auto auto auto;
+        padding: 0.8in;
+    }
+
+    .second-sub-text {
+        width: 100%;
+        font-size: 15px;
+        color: gray;
+        margin-top: 24px;
+    }
+
+    .second-learn-more-lnk {
+        color: black;
+        font-family: "PT serif", serif;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .second-learn-more-lnk:hover {
+        text-transform: uppercase;
+        text-decoration-color: rgb(255, 102, 0);
+        text-decoration-line: underline;
+        text-decoration-thickness: 5px;
+    }
+
+    /* ----styling for graphic design detials------ */
+
+    .graph-photo {
+        display: inline-flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        /* overflow: hidden; */
+    }
+
+    .graph-design-image {
+        background-image: url("../images/desktop/image-graphic-design.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 55vh;
+        display: flex;
+    }
+
+    .graph-design-div {
+        width: 100%;
+        text-align: center;
+        margin-top: 195px;
+    }
+
+
+
+    .graph-design-text {
+        color: rgb(2, 63, 2);
+        font-size: 20px;
+    }
+
+    .graph-design-sub-text {
+        color: rgb(2, 63, 2);
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* ----styling for photography image detials------ */
+    .photography-image {
+        background-image: url("../images/desktop/image-photography.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 55vh;
+        display: flex;
+        float: right;
+    }
+
+    .Photography-text-div {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 195px;
+        color: rgb(13, 62, 102);
+    }
+
+    .photography-heading-text {
+        color: rgb(13, 62, 102);
+        font-size: 20px;
+        margin-left: 0;
+        /* text-align: center; */
+    }
+
+    .photography-subtext {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    /* ----styling for client detials------ */
+    .clients {
+        margin-top: 70px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    .new-client-div {
+        display: inline-flex;
+        margin-top: 130px;
+    }
+
+    .clients-h3 {
+        color: gray;
+        font-weight: bolder;
+        text-align: center;
+        width: 100%;
+        display: block;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+    }
+
+    /* ----styling for Emily detials------ */
+    .emily-photo {
+        background-image: url("../images/image-emily.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 39%;
+        height: 15vh;
+        border-radius: 50%;
+        margin-left: 105px;
+    }
+
+    .emily-subtitle {
+        color: gray;
+        margin-top: 90px;
+        text-align: center;
+        width: 83%;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    /* ----styling for thomas detials------ */
+    .thomas-photo {
+        background-image: url("../images/image-thomas.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 36%;
+        height: 16vh;
+        border-radius: 50%;
+        margin-left: 90px;
+    }
+
+    .thomas-subtitle {
+        color: gray;
+        margin-top: 90px;
+        text-align: center;
+        width: 72%;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    /* ----styling for Jennie detials------ */
+    .jennie-photo {
+        background-image: url("../images/image-jennie.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 39%;
+        height: 15vh;
+        border-radius: 50%;
+        margin-left: 90px;
+    }
+
+    .jennie-subtitle {
+        color: gray;
+        margin-top: 90px;
+        text-align: center;
+        width: 83%;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+
+    .jennie-footer,
+    .thomas-footer,
+    .emily-footer {
+        margin-top: 50px;
+        width: 75%;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    /* ----------images beneath client testimonials------------- */
+    .image-footer {
+        display: flex;
+        margin-top: 190px;
+    }
+
+    .bottle-image {
+        background-image: url("../images/desktop/image-gallery-milkbottles.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        height: 40vh;
+        display: flex;
+    }
+
+    .orange-image {
+        background-image: url("../images/desktop/image-gallery-orange.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        height: 40vh;
+        display: flex;
+    }
+
+    .cup-image {
+        background-image: url("../images/desktop/image-gallery-cone.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        height: 40vh;
+        display: flex;
+    }
+
+    .sugar-image {
+        background-image: url("../images/desktop/image-gallery-sugarcubes.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        height: 40vh;
+        display: flex;
+    }
+
+    /* ---------footer styling---------- */
+    .footer {
+        background-color: rgb(132, 220, 223);
+        width: 100%;
+        text-align: center;
+    }
+
+    .sunnyside-footer {
+        color: rgb(55, 88, 55);
+        padding-top: 50px;
+        font-size: 60px !important;
+    }
+
+    .footer-links a {
+        color: rgb(55, 88, 55);
+        padding-top: 50px;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 50px;
+        width: 100%;
+        display: inline;
+    }
+
+    .socials a {
+        margin-top: 90px;
+    }
+
+    .footer-links a:hover {
+        color: #ffff;
+    }
+
+    .fb-icon {
+        background-image: url("../images/icon-facebook.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 2.3%;
+        height: 10vh;
+        margin: 6px;
+    }
+
+    .fb-icon:hover {
+        filter: brightness(0) invert(1);
+    }
+
+    .twitter-icon:hover {
+        filter: brightness(0) invert(1);
+    }
+
+    .insta-icon:hover {
+        filter: brightness(0) invert(1);
+    }
+
+    .pin-icon:hover {
+        filter: brightness(0) invert(1);
+    }
+
+    .twitter-icon {
+        background-image: url("../images/icon-twitter.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 2.3%;
+        height: 10vh;
+        margin: 6px;
+    }
+
+    .insta-icon {
+        background-image: url("../images/icon-instagram.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 2.3%;
+        height: 10vh;
+        margin: 6px;
+    }
+
+    .pin-icon {
+        background-image: url("../images/icon-pinterest.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 2.3%;
+        height: 10vh;
+        margin: 6px;
+    }
+
+    .attribution {
+        text-align: center;
+        width: 100%;
+        background-color: green;
+        color: #ffff;
+        font-size: 20px;
+
+    }
+
+    .attribution a {
+        color: #ffff;
+
+    }
+
+    .attribution a:hover {
+        color: #e07070;
+    }
+}
